@@ -768,7 +768,29 @@ animation: bouncing 1.5s infinite;
 .farms .box:hover .info i {
     animation: moving-arrow 0.6s linear infinite;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Stack filter and products in a single column on mobile */
+    .farms .container {
+        grid-template-columns: 1fr; /* 1 column layout for mobile */
+    }
 
+    /* Show the hamburger menu only on mobile (below 768px) */
+    .hamburger-menu {
+        display: block; /* Show hamburger icon */
+    }
+
+    /* Show the filter above the products on small screens */
+    .filter.active {
+        display: block;
+        margin-top: 20px; /* Space between filter and products */
+    }
+
+    /* Adjust product grid */
+    .farms .boxs {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust box size */
+    }
+}
 /* End Farms Section */
 
 /* Start Articles */
