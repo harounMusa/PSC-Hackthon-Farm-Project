@@ -4,6 +4,11 @@
 ## Introduction
 Sudan Farms is a platform designed to connect farmers and traders, ensuring fair pricing and accessibility for agricultural products. The platform allows traders to easily browse farms and products, while empowering farmers to showcase their offerings and manage their farms effectively. Arabic language support will be added soon.
 
+Pricing Regulation by the Ministry of Agriculture
+The idea is to set prices determined by the Ministry of Agriculture based on climatic conditions and the nature of crops in each region. The sale price for farmers will be established, and they will be educated about their rights. Additionally, the purchase price for citizens will be defined.
+
+Inspection committees will be formed to ensure compliance with the prices set by the higher authorities. Penalties will be imposed on anyone who violates the established regulations.
+
 ---
 
 ## User Experience
