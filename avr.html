@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Crop Price</title>
+    <!-- font Awseom libraly -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Render all Elments normally -->
+    <link rel="stylesheet" href="css/Normalizecss.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/avr.css">
+</head>
+<body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">Sudan Frams</a>
+            <ul class="main-nav">
+
+                <li><a href="#products">products</a></li>
+                <li><a href="#farms">farms</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li>
+                    <a href="#">Other Links</a>
+                    <!-- Start Megamenu -->
+                    <div class="mega-menu">
+                        <div class="image">
+                            <img src="images/megaMenuImg.jpg" alt="">
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="#login"><i class="far fa-user fa-fw"></i>Log in / Sign up</a>
+                            </li>
+                            <li>
+                                <a href="avr.html"><i class="far fa-chart-bar fa-fw"></i>Average product prices today</a>
+                            </li>
+                            <li>
+                                <a href="#special-request"><i class="far fa-comments fa-fw"></i>Do you have any feedback for us?</a>
+                            </li>
+                            <li>
+                                <a href="article.html"><i class="far fa-calendar-alt fa-fw"></i>See our latest Article</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials"><i class="far fa-comments fa-fw"></i>Testimonials</a>
+                            </li>
+
+                            <!-- <li>
+                                <a href="#services"><i class="far fa-building fa-fw"></i>Services</a>
+                            </li>
+                            <li>
+                                <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i>Our Skills</a>
+                            </li> -->
+                        </ul>
+                        <!-- <ul class="links">
+                            <li>
+                                <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i>How It Work</a>
+                            </li>
+                            <li>
+                                <a href="#pricing"><i class="fas fa-server fa-fw"></i>Pricing Plans</a>
+                            </li>
+                            <li>
+                                <a href="#videos"><i class="far fa-play-circle fa-fw"></i>Top Videos</a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <!-- End Megamenu -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Header -->
+    <div class="avr-container">
+        <h1>Average Price of Crops</h1>
+        
+        <div class="products">
+            <h2>Crops and Prices</h2>
+            <ul id="product-list">
+                <li class="product-item" data-price="30.0">
+                    <img src="images/wheat.jpg" alt="Wheat">
+                    <div class="product-details">
+                        <span class="product-name">Wheat</span>
+                        <span class="product-price">min: <span class="min">$30.0</span>max: <span class="max">$50.0</span></span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="25.0">
+                    <img src="images/eggplant.jpg" alt="Eggplant">
+                    <div class="product-details">
+                        <span class="product-name">Eggplant</span>
+                        <span class="product-price">min: <span class="min">$20.0</span>max: <span class="max">$30.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="40.0">
+                    <img src="images/strawberry.jpg" alt="Strawberry">
+                    <div class="product-details">
+                        <span class="product-name">Strawberry</span>
+                        <span class="product-price">min: <span class="min">$9.0</span>max: <span class="max">$36.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="15.0">
+                    <img src="images/potatoes.jpg" alt="Potatoes">
+                    <div class="product-details">
+                        <span class="product-name">Potatoes</span>
+                        <span class="product-price">min: <span class="min">$25.0</span>max: <span class="max">$53.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="35.0">
+                    <img src="images/tomatoes.jpg" alt="Tomatoes">
+                    <div class="product-details">
+                        <span class="product-name">Tomatoes</span>
+                        <span class="product-price">min: <span class="min">$47.0</span>max: <span class="max">$80.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="25.0">
+                    <img src="images/red_hot_chilli.jpg" alt="Red Hot Chilli">
+                    <div class="product-details">
+                        <span class="product-name">Red Hot Chilli</span>
+                        <span class="product-price">min: <span class="min">$53.0</span>max: <span class="max">$60.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="30.0">
+                    <img src="images/olive.jpg" alt="Olive">
+                    <div class="product-details">
+                        <span class="product-name">Olive</span>
+                        <span class="product-price">min: <span class="min">$15.0</span>max: <span class="max">$46.0</span>
+                    </div>
+                </li>
+                <li class="product-item" data-price="0.0">
+                    <img src="images/orange.jpg" alt="Orange">
+                    <div class="product-details">
+                        <span class="product-name">Orange</span>
+                        <span class="product-price">min: <span class="min">$67.0</span>max: <span class="max">$84.0</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="average-price">
+            <h3>Today is: <span class="the-date">00</span></h3>
+        </div>
+    </div>
+
+        <!-- Start Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <h3>Sudan Farms</h3>
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Ad perferendis omnis ducimus recusandae, est explicabo placeat.
+                    </p> -->
+                </div>
+                <div class="box">
+                    <ul class="links">
+                        <li><a href="#">Importent link 1</a></li>
+                        <li><a href="#">Importent link 2</a></li>
+                        <li><a href="#">Importent link 3</a></li>
+                        <li><a href="#">Importent link 4</a></li>
+                        <li><a href="#">Importent link 5</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="line">
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <div class="info">You don't need to know where i stay</div>
+                    </div>
+                    <div class="line">
+                        <i class="far fa-clock fa-fw"></i>
+                        <div class="info">Business Hours 9:00 To 5:00</div>
+                    </div>
+                    <div class="line">
+                        <i class="fas fa-phone-volume fa-fw"></i>
+                        <div class="info">
+                            <span>++249 124 623 699</span>
+                            <span>++243 765 179 988</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box footer-gallery">
+                    <img src="images/shuffle-1.jpg" alt="">
+                    <img src="images/shuffle-2.jpg" alt="">
+                    <img src="images/shuffle-3.jpg" alt="">
+                    <img src="images/shuffle-4.jpg" alt="">
+                    <img src="images/shuffle-5.jpg" alt="">
+                    <img src="images/shuffle-6.jpg" alt="">
+                </div>
+            </div>
+            <p class="copyright">Made With &lt;3 By أولاد إبراهيم للكمبيوتر</p>
+        </div>
+        <!-- End Footer -->
+
+    <script>
+        
+        const today = document.querySelector(".the-date");
+const date = new Date();
+
+// Get the day, month, and year
+const day = date.getDate();
+const month = date.getMonth() + 1; // Months are zero-based, so adding 1
+const year = date.getFullYear();
+
+// Format the date with leading zeroes for day and month
+today.innerHTML = 
+    (month < 10 ? "0" : "") + month + "/" +
+    (day < 10 ? "0" : "") + day + "/" + 
+    year;
+
+    console.log(today.innerHTML);
+    </script>
+</body>
+</html>
