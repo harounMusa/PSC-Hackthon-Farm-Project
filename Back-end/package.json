@@ -1,0 +1,16 @@
+{
+  "name": "farm-project-backend",
+  "version": "1.0.0",
+  "description": "this is the back end of the farm project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env server.js "
+  },
+  "author": "haroun musa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3"
+  }
+}
