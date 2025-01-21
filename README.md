@@ -31,7 +31,7 @@ Inspection committees will be formed to ensure compliance with the prices set by
       - Product name.
       - Quantity.
       - Product image.
-![Alt text](images/Dashboard.PNG)
+![Alt text](Front-end/images/Dashboard.PNG)
 
 ---
 
